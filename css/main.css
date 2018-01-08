@@ -1,5 +1,86 @@
+/* base page styles */
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 5em;
+    color: #333;
 }
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #707070;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    padding-right: 5em;
+}
+
+nav li {
+    display:inline;
+    border-left: 1px solid #707070;
+    padding: .5em;
+    margin: .5em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #707070;   
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:visited {
+    color: #707070; 
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+  }
+
+/* * classes */
+
+  .social {
+    padding-right: 5em;
+  }
+
+  .main-img {
+      padding-left: 5em;
+  }
+
+  /* main page name */
+.lindsay {
+    padding-left: .5em;
+    padding-top: 1em;
+    padding-bottom: .1em;
+    /* border-bottom: 2px solid #333; */
+  }
+
+  /* flexbox for img and name */
+.row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* is this even right?! Trying to double decker the name and description */
+
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }

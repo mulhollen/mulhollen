@@ -9,24 +9,30 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav id="nav">
                 <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#resume">resume</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li id="nav-home"><a href="#home">home</a></li>
+                    <li id="nav-about"><a href="#about">about</a></li>
+                    <li id="nav-resume"><a href="#resume">resume</a></li>
+                    <li id="nav-contact"><a href="#contact">contact</a></li>
                 </ul>
             </nav>
         </header>
         <div><!--home div-->
-            <img src="img/lm-homepage.jpg" alt="Lindsay at the Akron Art Museum" height="917">
-            <h1>Lindsay Mulhollen</h1>
-            <p>Lover of creative projects, brainstorming, and impromptu dance parties, I have been having a blast with arts and media since early childhood.</p>
+            <main class="row">
+                <img class="main-img" src="img/lm-homepage.jpg" alt="Lindsay at the Akron Art Museum" height="917">
+                <div class="column"></div><!--column in row-->
+                    <h1 class="lindsay">Lindsay<br>Mulhollen</h1>
+                    <p class="column">Lover of creative projects, brainstorming, and impromptu dance parties, I have been having a blast with arts and media since early childhood.</p>
+                </div>
+            </main>
         </div><!--/home div-->
         <footer>
+            <div class="social">
                 <!--linkedin--><a href="https://www.linkedin.com/in/lindsay-mulhollen-72212254/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
                 <!--github--><a href="https://github.com/mulhollen" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>
                 <!--behance--><a href="https://www.behance.net/lindsaymule501" target="_blank"><i class="fab fa-behance-square fa-lg"></i></a>
+            </div>
         </footer> 
     </body>
 </html>
