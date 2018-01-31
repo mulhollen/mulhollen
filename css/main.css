@@ -64,17 +64,14 @@ footer {
     padding-right: 5em;
   }
 
+  .bigSocial {
+      font-size: 2em;
+  }
+
   .main-img {
       padding-left: 5em;
       padding-bottom: 2em;
       height: 650px;
-  }
-
-  /* banner and text underneath */
-  .lm-banner {
-      width: 55%;
-      padding-left: 5%;
-      align-items: flex-end;
   }
 
   .resume {
@@ -86,15 +83,15 @@ footer {
 
   /* main page name */
 .lindsay {
-    padding-left: .5em;
-    padding-top: 1em;
-    padding-bottom: .1em;
-    /* border-bottom: 2px solid #333; */
+    padding: 1em 0 .1em 0;
+    border-bottom: 2px solid #333;
+    margin-bottom: 0;
   }
 
   /* h1 non-mainpage */
   .page-title {
-      padding-left: 1.5em;
+      padding-left: 1em;
+      margin-top: 0;
   }
 
   .about {
@@ -102,19 +99,24 @@ footer {
       flex-wrap: wrap;
   }
 
-  /* flexbox for img and name */
-.row {
+  /* flex trios */
+
+  #flexRow {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row wrap;
+    padding-top: 2em;
   }
 
-  /* is this even right?! Trying to double decker the name and description */
 
-.column {
+  #flexColumn {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
+    padding: 0 2.5em 0 2em;
   }
+
+
+  #flexColumn .slide img {
+      width: 100%;
+  }
+
+ 
