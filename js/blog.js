@@ -1,7 +1,5 @@
 // array contains blogposts
 
-console.log("test");
-
 const blog = [
     {
         title: "title holder",
